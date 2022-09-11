@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-avatar {
+  height: 30vmin;
+  border:8px solid #393E46;
+  background: #393E46;
+  border-radius: 50%;
+}
+
+.App-header {
+  background-color: #212121;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title {
+  font-size: calc(24px + 2vmin);
+  color: white;
+}
+
+.App-subtitle {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: -2rem;
+}
+
+.App-link {
+  color: white;
+}
+
+.App-icons {
+  margin-top: 1rem;
+}
+
+.App-icons a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
